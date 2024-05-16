@@ -8,11 +8,11 @@ const Header = () => {
       <header className="bg-black overflow-hidden">
         <div className="max-w-[1164px] mx-auto px-3">
           <div className="flex sm:flex-row gap-5 sm:gap-0 flex-col justify-between items-center pt-[40px] md:pt-[70px]">
-            <div className="flex sm:items-start items-center flex-col sm:max-w-[460px]">
+            <div className="flex sm:items-start items-center flex-col lg:max-w-[550px] sm:max-w-[460px]">
               <h1 className="xl:text-3xl text-[50px] lg:text-[80px] font-inter text-white font-black leading-[120%]">
                 G<span className="text-yellow">G</span>
               </h1>
-              <p className="text-lg max-w-[538px] sm:text-start text-center font-inter font-semibold text-white leading-[121%]">
+              <p className="text-md sm:text-[20px] max-w-[550px] sm:text-start text-center font-inter font-semibold text-[#cccccc] leading-[121%]">
                 Join The Worldwide
                 <span className="text-yellow"> Blockchain Protest  </span>
                 Against Corrupt Government Bodies
@@ -32,7 +32,7 @@ const Header = () => {
                 </button>
               </div>
               <a
-                className="text-white hover:bg-white sm:max-w-full max-w-[400px] hover:text-black duration-200 copy_file border mt-7 sm:mt-9 font-inter text-lg font-normal border-white rounded-[102px] w-full sm:w-[389.5px] h-[55px] sm:h-[61.96px] flex items-center justify-center"
+                className="text-white hover:bg-white sm:max-w-full max-w-[400px] hover:text-black duration-200 copy_file border mt-7 sm:mt-9 font-inter text-md sm:text-[20px] font-normal border-white rounded-[102px] w-full sm:w-[389.5px] h-[55px] sm:h-[61.96px] flex items-center justify-center"
                 href="#"
               >
                 dwqjddj324dnewdne3dewrrets <FileIcon className="ms-5" />
