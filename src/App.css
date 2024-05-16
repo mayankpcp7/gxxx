@@ -5,3 +5,12 @@
 .copy_file:hover .file_icon {
   fill: black;
 }
+.bg_utility {
+  background: url(./assets/images/png/utility-background.png);
+}
+.bg_about {
+  background: url(./assets/images/png/about-us-background.png);
+}
+.bg_eco_system {
+  background: url(./assets/images/png/bg-eco-system.png);
+}

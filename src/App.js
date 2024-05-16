@@ -5,6 +5,9 @@ import Header from "./components/Header";
 import SocialSlider from "./components/SocialSlider";
 import AboutUs from "./components/AboutUs";
 import Takenomics from "./components/Takenomics";
+import Utility from "./components/Utility";
+import EcoSystem from "./components/EcoSystem";
+import { Roadmap } from "./components/Roadmap";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
         <Header />
         <SocialSlider />
         <AboutUs />
-        <Takenomics/>
+        <Takenomics />
+        <Utility />
+        <EcoSystem />
+        <Roadmap/>
         <SocialSlider />
         <Footer />
       </div>

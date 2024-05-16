@@ -6,13 +6,13 @@ const Takenomics = () => {
     <>
       <img className="w-full" src={toplayer} alt="cloudy_layer" />
       <div className="bg-black -my-[2px]">
-        <div className="max-w-[1164px] px-3 mx-auto md:pt-[81px] sm:pt-[60px] pt-[48px] pb-[29px]">
+        <div className="max-w-[1164px] px-3 mx-auto md:pt-[81px] sm:pt-[60px] pt-[30px] pb-[29px]">
           <div className="flex lg:flex-row items-center lg:items-start flex-col justify-between">
             <div className="flex flex-col sm:min-w-[453px] lg:items-start justify-between items-center">
               <h2 className="text-white font-inter font-black leading-[121%] text-xl xl:text-[64px]">
                 TOKENOMICS
               </h2>
-              <p className="lg:max-w-[453px] lg:text-start max-w-[840px] text-center pt-5 text-[#828282] font-inter text-base leading-[187.5%]">
+              <p className="lg:max-w-[453px] lg:text-start max-w-[840px] text-center pt-4 md:pt-5 text-[#828282] font-inter text-base leading-[187.5%]">
                 Let's Hug GG ($LHGG) operates on a deflationary tokenomics model
                 designed to incentivize selling Bitcoin. With a fixed total
                 supply and a burn mechanism in place, each transaction
